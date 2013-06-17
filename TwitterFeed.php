@@ -2,6 +2,7 @@
 
 namespace AMLDigital;
 
+use \themattharris\tmhOAuth;
 
 class TwitterFeed {
     /***
