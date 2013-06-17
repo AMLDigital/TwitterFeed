@@ -1,0 +1,28 @@
+{
+    "name": "AMLDigital/TwitterFeed",
+    "description": "A quick and easy way to deploy a twitter feed on a website.",
+    "license": "GPL v2",
+    "authors": [
+        {
+            "name": "andylockran",
+            "email": "andy.loughran@aml-group.com",
+            "role": "Project Manager"
+        }
+    ],
+    "keywords": [
+        "twitter",
+        "oauth",
+        "twitterfeed"
+    ],
+    "support": {
+        "issues": "https://github.com/AMLDigital/TwitterFeed/issues"
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "ext-curl": "*",
+        "themattharris/tmhOAuth": "0.7.5"
+    },
+    "autoload": {
+        "psr-0": { "TwitterFeed": "" }
+    }
+}
