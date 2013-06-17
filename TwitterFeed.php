@@ -1,12 +1,8 @@
 <?php
 
-namespace AMLDigital;
-
-use \themattharris\tmhOAuth;
-
 class TwitterFeed {
     /***
-     * @param $consumer_key
+        * @param $consumer_key
      * @param $consumer_secret
      * @param $user_token
      * @param $user_secret
@@ -37,7 +33,8 @@ class TwitterFeed {
             )
         );
         $result = array(    'code' => $connection->response['code'],
-                            'content' => json_decode($connection->response['response'])
+                            'content' => json_decode($connection->response['response']),
+                            'raw' => $connection->response['response']
         );
         return $result;
     }
