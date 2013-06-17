@@ -20,7 +20,7 @@
     "require": {
         "php": ">=5.3.0",
         "ext-curl": "*",
-        "themattharris/tmhOAuth": "0.7.5"
+        "themattharris/tmhoauth": "0.7.5"
     },
     "autoload": {
         "psr-0": { "TwitterFeed": "" }
