@@ -21,8 +21,5 @@
         "php": ">=5.3.0",
         "ext-curl": "*",
         "themattharris/tmhoauth": "0.7.5"
-    },
-    "autoload": {
-        "psr-0": { "TwitterFeed": "" }
     }
 }
