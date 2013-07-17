@@ -1,7 +1,4 @@
 <?php
-namespace AMLDigital;
-
-namespace AMLDigital;
 /**
  * TwitterFeed
  *
