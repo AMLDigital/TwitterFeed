@@ -1,4 +1,5 @@
 <?php
+namespace AMLDigital;
 
 class TwitterFeed {
     /***
