@@ -1,4 +1,5 @@
 <?php
+namespace AMLDigital;
 
 namespace AMLDigital;
 /**
